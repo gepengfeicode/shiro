@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.792" errors="3" skipped="0" tests="4" name="com.cn.shiro.text.TestShrio">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\bin"/>
+    <property name="java.vm.version" value="23.25-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\ProjectFile\flag\simple_shiro"/>
+    <property name="java.runtime.version" value="1.7.0_25-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\ProjectFile\flag\simple_shiro"/>
+    <property name="java.endorsed.dirs" value="D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="D:\ProjectFile\flag\simple_shiro\target\surefire\surefirebooter2915780212646509394.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows7Master;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;D:\FileManage\MavenManage\apache-maven-3.0.4\bin;D:\GongzuoGongju\plsql\plsql\plsql\PLSQL Developer\instantclient_11_2;D:\GongzuoGongju\putty\;D:\GongzuoGongju\UE;C:\Program Files\erl10.1;D:\GongzuoGongju\rabbitMq\rabbitmq_server-3.7.8;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.7.0_79\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_79\lib\tools.jar;C:\Program Files\IBM\WebSphere MQ\bin64;C:\Program Files\IBM\WebSphere MQ\bin;C:\Program Files\IBM\WebSphere MQ\tools\c\samples\bin;C:\Oracle\Middleware\wlserver_10.3\server\bin\setWLSEnv.cmd;C:\Users\Administrator\AppData\Roaming\npm;C:\Users\Administrator\AppData\Local\BypassRuntm;."/>
+    <property name="surefire.test.class.path" value="D:\ProjectFile\flag\simple_shiro\target\test-classes;D:\ProjectFile\flag\simple_shiro\target\classes;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\junit\junit\4.9\junit-4.9.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\org\apache\shiro\shiro-core\1.2.2\shiro-core-1.2.2.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\com\alibaba\druid\1.1.12\druid-1.1.12.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.timezone" value="GMT+08:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="java.class.path" value="D:\ProjectFile\flag\simple_shiro\target\test-classes;D:\ProjectFile\flag\simple_shiro\target\classes;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\junit\junit\4.9\junit-4.9.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\org\apache\shiro\shiro-core\1.2.2\shiro-core-1.2.2.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\mysql\mysql-connector-java\5.1.45\mysql-connector-java-5.1.45.jar;D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository\com\alibaba\druid\1.1.12\druid-1.1.12.jar;"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre"/>
+    <property name="sun.java.command" value="D:\ProjectFile\flag\simple_shiro\target\surefire\surefirebooter2915780212646509394.jar D:\ProjectFile\flag\simple_shiro\target\surefire\surefire5884500648654467777tmp D:\ProjectFile\flag\simple_shiro\target\surefire\surefire9121932852676530424tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_25"/>
+    <property name="java.ext.dirs" value="D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\resources.jar;D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\rt.jar;D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\sunrsasign.jar;D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\jsse.jar;D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\jce.jar;D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\charsets.jar;D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\lib\jfr.jar;D:\GongzuoGongju\jdk\jdk1.7.0_25\jdk1.7.0_25\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\FileManage\MavenManage\spay-rpo\spay-rpo\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.639" classname="com.cn.shiro.text.TestShrio" name="jdbcRealmShiroImpl"/>
+  <testcase time="0.006" classname="com.cn.shiro.text.TestShrio" name="simpleShrioImpl">
+    <error message="No account found for user [god]" type="org.apache.shiro.authc.UnknownAccountException">org.apache.shiro.authc.UnknownAccountException: No account found for user [god]
+	at org.apache.shiro.realm.jdbc.JdbcRealm.doGetAuthenticationInfo(JdbcRealm.java:238)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.cn.shiro.text.TestShrio.simpleShrioImpl(TestShrio.java:155)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:146)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</error>
+    <system-err>初始化datasource
+</system-err>
+  </testcase>
+  <testcase time="0.016" classname="com.cn.shiro.text.TestShrio" name="iniRealmShiroImpl">
+    <error message="No account found for user [god]" type="org.apache.shiro.authc.UnknownAccountException">org.apache.shiro.authc.UnknownAccountException: No account found for user [god]
+	at org.apache.shiro.realm.jdbc.JdbcRealm.doGetAuthenticationInfo(JdbcRealm.java:238)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.cn.shiro.text.TestShrio.iniRealmShiroImpl(TestShrio.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:146)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</error>
+    <system-err>初始化datasource
+</system-err>
+  </testcase>
+  <testcase time="0.002" classname="com.cn.shiro.text.TestShrio" name="consumerRealmShiroImpl">
+    <error message="No account found for user [wqq]" type="org.apache.shiro.authc.UnknownAccountException">org.apache.shiro.authc.UnknownAccountException: No account found for user [wqq]
+	at org.apache.shiro.realm.jdbc.JdbcRealm.doGetAuthenticationInfo(JdbcRealm.java:238)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.cn.shiro.text.TestShrio.consumerRealmShiroImpl(TestShrio.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:69)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:48)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:292)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:146)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:145)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</error>
+    <system-err>初始化datasource
+</system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,34 @@
+#surefire
+#Tue Aug 27 09:28:18 GMT+08:00 2019
+testClassesDirectory=D\:\\ProjectFile\\flag\\simple_shiro\\target\\test-classes
+classPathUrl.4=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\commons-logging\\commons-logging\\1.1.3\\commons-logging-1.1.3.jar
+classPathUrl.3=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\org\\hamcrest\\hamcrest-core\\1.1\\hamcrest-core-1.1.jar
+classPathUrl.2=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\junit\\junit\\4.9\\junit-4.9.jar
+useManifestOnlyJar=true
+classPathUrl.1=D\:\\ProjectFile\\flag\\simple_shiro\\target\\classes
+reportsDirectory=D\:\\ProjectFile\\flag\\simple_shiro\\target\\surefire-reports
+classPathUrl.0=D\:\\ProjectFile\\flag\\simple_shiro\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=D\:\\ProjectFile\\flag\\simple_shiro\\src\\test\\java
+surefireClassPathUrl.1=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\org\\apache\\maven\\surefire\\surefire-junit4\\2.7.1\\surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=D\:\\ProjectFile\\flag\\simple_shiro\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+includes2=**/*TestCase.java
+enableAssertions=true
+includes1=**/*Test.java
+failIfNoTests=false
+includes0=**/Test*.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+classPathUrl.9=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\com\\alibaba\\druid\\1.1.12\\druid-1.1.12.jar
+classPathUrl.8=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\mysql\\mysql-connector-java\\5.1.45\\mysql-connector-java-5.1.45.jar
+classPathUrl.7=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\commons-beanutils\\commons-beanutils\\1.8.3\\commons-beanutils-1.8.3.jar
+childDelegation=false
+classPathUrl.6=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\org\\slf4j\\slf4j-api\\1.6.4\\slf4j-api-1.6.4.jar
+classPathUrl.5=D\:\\FileManage\\MavenManage\\spay-rpo\\spay-rpo\\repository\\org\\apache\\shiro\\shiro-core\\1.2.2\\shiro-core-1.2.2.jar
